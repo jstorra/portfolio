@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Juan Sebastian Torra Garcia",
+    "subtitle": "Desarrollador FullStack"
+  }
+}
