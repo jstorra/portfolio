@@ -4,10 +4,10 @@ function Navbar() {
   const { t } = useTranslation()
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md border-b border-white/10 z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <nav className="px-6 fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md border-b border-white/10 z-50">
+      <div className="max-w-6xl mx-auto py-4 flex items-center justify-between">
         
-        <h1 className="text-white text-xl font-bold">
+        <h1 className="text-white text-3xl font-bold">
           <a href="#home">Portfolio</a>
         </h1>
 
