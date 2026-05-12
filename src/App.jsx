@@ -1,9 +1,20 @@
+import Navbar from "./components/Navbar"
+import HeroSection from "./sections/HeroSection"
+
 function App() {
   return (
-    <div className="bg-black text-white min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Mi Portfolio
-      </h1>
+    <div className="min-h-screen bg-[#050816] text-white overflow-hidden relative">
+      
+      {/* Glow background */}
+      <div className="absolute top-[-200px] left-[-100px] w-[500px] h-[500px] bg-green-500/20 rounded-full blur-3xl"></div>
+
+      <div className="absolute top-[200px] right-[-100px] w-[400px] h-[400px] bg-blue-500/20 rounded-full blur-3xl"></div>
+
+      <Navbar />
+
+      <main className="relative z-10 pt-24">
+        <HeroSection />
+      </main>
     </div>
   )
 }
