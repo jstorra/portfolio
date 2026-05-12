@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import HeroSection from "./sections/HeroSection"
+import AboutSection from "./sections/AboutSection"
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
 
       <Navbar />
 
-      <main className="relative z-10 pt-24">
+      <main className="relative z-10">
         <HeroSection />
+        <AboutSection />
       </main>
     </div>
   )
