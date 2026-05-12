@@ -7,7 +7,7 @@ function HeroSection() {
 
         {/* Left side */}
         <div>
-          <p className="text-green-400 mb-4 text-lg">
+          <p className="text-green-400 mb-4 text-lg font-semibold">
             Hola, soy
           </p>
 
