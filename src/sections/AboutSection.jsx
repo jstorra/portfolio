@@ -13,7 +13,7 @@ function AboutSection() {
 
             <div className="max-w-5xl mx-auto">
 
-                <h3 className="text-green-400 mb-4 text-3xl font-semibold">
+                <h3 className="text-green-400 mb-8 text-3xl font-semibold">
                     {t("about.sectionTitle")}
                 </h3>
 
