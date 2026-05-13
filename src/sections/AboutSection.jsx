@@ -33,14 +33,14 @@ function AboutSection() {
 
                     <div className="grid md:grid-cols-2 gap-8">
 
-                        <div className="bg-gray-900/80 p-8 rounded-xl border border-white/10">
+                        <div className="bg-gradient-to-br from-gray-900/40 to-gray-800/50 p-8 rounded-xl border border-white/10">
                             <h3 className="text-green-400 text-2xl font-bold mb-4">
                                 {t("about.misionTitle")}
                             </h3>
                             <p>{t("about.misionDescription")}</p>
                         </div>
 
-                        <div className="bg-gray-900/80 p-8 rounded-xl border border-white/10">
+                        <div className="bg-gradient-to-br from-gray-900/40 to-gray-800/50 p-8 rounded-xl border border-white/10">
                             <h3 className="text-green-400 text-2xl font-bold mb-4">
                                 {t("about.visionTitle")}
                             </h3>
