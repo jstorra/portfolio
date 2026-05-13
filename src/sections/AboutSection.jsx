@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next"
+
 function AboutSection() {
+    const { t } = useTranslation()
+
     return (
         <section
             id="about"
@@ -14,7 +18,7 @@ function AboutSection() {
                 {/* Title */}
                 <div className="mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold">
-                        Construyendo experiencias web modernas
+                        {t("about.title")}
                     </h2>
                 </div>
 
@@ -23,24 +27,24 @@ function AboutSection() {
 
                     <div className="mb-16">
                         <p className="text-gray-400 text-lg leading-relaxed">
-                            Apasionado por crear soluciones prácticas y eficientes, con un enfoque en la innovación y mejora continua. Cuento
-                            con experiencia en el análisis, diseño y desarrollo de aplicaciones, y me destaco por mi capacidad para colaborar en
-                            equipo, resolver problemas complejos y adaptarme rápidamente a nuevas tecnologías. Mi objetivo es contribuir al
-                            crecimiento de una empresa mediante la aplicación de habilidades técnicas y el aprendizaje constante, asegurando
-                            calidad y eficacia en cada proyecto.
+                            {t("about.description")}
                         </p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
 
                         <div className="bg-gray-900/80 p-8 rounded-xl border border-white/10">
-                            <h3 className="text-green-400 text-2xl font-bold mb-4">Misión</h3>
-                            <p>Desarrollar soluciones web modernas, intuitivas y eficientes que generen experiencias digitales de calidad.</p>
+                            <h3 className="text-green-400 text-2xl font-bold mb-4">
+                                {t("about.misionTitle")}
+                            </h3>
+                            <p>{t("about.misionDescription")}</p>
                         </div>
 
                         <div className="bg-gray-900/80 p-8 rounded-xl border border-white/10">
-                            <h3 className="text-green-400 text-2xl font-bold mb-4">Visión</h3>
-                            <p>Convertirme en un desarrollador FullStack capaz de construir productos digitales innovadores con impacto real.</p>
+                            <h3 className="text-green-400 text-2xl font-bold mb-4">
+                                {t("about.visionTitle")}
+                            </h3>
+                            <p>{t("about.visionDescription")}</p>
                         </div>
 
                     </div>

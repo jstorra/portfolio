@@ -7,7 +7,18 @@
   },
 
   "hero": {
-    "title": "Juan Sebastian Torra Garcia",
-    "subtitle": "Desarrollador FullStack"
+    "greeting": "Hi, I'm",
+    "name": "Juan Sebastian Torra Garcia",
+    "subtitle": "FullStack Developer focused on building modern, fast, and scalable web experiences.",
+    "viewProjects": "View Projects"
+  },
+
+  "about": {
+    "title": "Building modern web experiences",
+    "description": "Passionate about creating practical and efficient solutions, with a strong focus on innovation and continuous improvement. I have experience in the analysis, design, and development of applications, and I stand out for my ability to collaborate in teams, solve complex problems, and quickly adapt to new technologies. My goal is to contribute to a company's growth by applying technical skills and continuous learning, ensuring quality and efficiency in every project.",
+    "misionTitle": "Mission",
+    "misionDescription": "Develop modern, intuitive, and efficient web solutions that deliver high-quality digital experiences.",
+    "visionTitle": "Vision",
+    "visionDescription": "Become a FullStack developer capable of building innovative digital products with real impact."
   }
 }

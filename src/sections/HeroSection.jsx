@@ -1,6 +1,9 @@
 import profileImage from "../assets/profile.png"
+import { useTranslation } from "react-i18next"
 
 function HeroSection() {
+  const { t } = useTranslation()
+
   return (
     <section id="home" className="min-h-screen flex items-center px-6">
       <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-16 items-center">
@@ -8,22 +11,19 @@ function HeroSection() {
         {/* Left side */}
         <div>
           <p className="text-green-400 mb-4 text-lg font-semibold">
-            Hola, soy
+            {t("hero.greeting")}
           </p>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Juan Sebastian
-            <br />
-            Torra Garcia
+            {t("hero.name")}
           </h1>
 
           <p className="text-gray-400 text-xl mb-8 max-w-xl">
-            FullStack Developer enfocado en crear experiencias web modernas,
-            rápidas y escalables.
+            {t("hero.subtitle")}
           </p>
 
           <button className="bg-green-500 hover:bg-green-400 transition-colors px-8 py-4 rounded-xl text-black font-semibold cursor-pointer">
-            Ver proyectos
+            {t("hero.viewProjects")}
           </button>
         </div>
 
