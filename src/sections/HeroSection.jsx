@@ -1,4 +1,4 @@
-import profileImage from "../assets/profile.png"
+import profileImage from "../assets/hero/profile.png"
 import { useTranslation } from "react-i18next"
 
 function HeroSection() {
