@@ -4,16 +4,16 @@ function AboutSection() {
     const { t } = useTranslation()
 
     return (
-        <section
-            id="about"
-            className="py-32 px-6 relative z-10"
-        >
+        <section id="about" className="py-32 px-6 relative z-10">
             {/* Glow background */}
             <div className="absolute top-[-200px] left-[100px] w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-3xl"></div>
             <div className="absolute top-[170px] left-[-100px] w-[500px] h-[500px] bg-green-500/20 rounded-full blur-3xl"></div>
             <div className="absolute top-[200px] right-[-100px] w-[400px] h-[400px] bg-blue-500/20 rounded-full blur-3xl"></div>
 
             <div className="max-w-5xl mx-auto">
+                <p className="text-green-400 mb-4 text-lg font-semibold">
+                    {t("about.sectionTitle")}
+                </p>
 
                 {/* Title */}
                 <div className="mb-16">
