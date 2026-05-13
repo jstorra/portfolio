@@ -21,5 +21,18 @@
     "misionDescription": "Develop modern, intuitive, and efficient web solutions that deliver high-quality digital experiences.",
     "visionTitle": "Vision",
     "visionDescription": "Become a FullStack developer capable of building innovative digital products with real impact."
+  },
+
+  "skills": {
+    "technicalSkillsTitle": "Technical Skills",
+    "softSkillsTitle": "Soft Skills",
+    "softSkills": [
+      "Critical Thinking",
+      "Decision-Making",
+      "Problem Solving",
+      "Adaptability",
+      "Teamwork",
+      "Communication"
+    ]
   }
 }

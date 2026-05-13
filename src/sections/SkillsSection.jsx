@@ -1,13 +1,13 @@
 import SkillCard from "../components/SkillCard"
-import javaIcon from "../assets/java-icon.webp"
-import springBootIcon from "../assets/springboot-icon.png"
-import pythonIcon from "../assets/python-icon.png"
-import JavaScriptIcon from "../assets/javascript-icon.webp"
-import nodeIcon from "../assets/node-icon.png"
-import gitIcon from "../assets/git-icon.png"
-import sqlIcon from "../assets/sql-icon.webp"
-import reactIcon from "../assets/react-icon.png"
-import tailwindIcon from "../assets/tailwind-icon.png"
+import javaIcon from "../assets/skills/java-icon.webp"
+import springBootIcon from "../assets/skills/springboot-icon.png"
+import pythonIcon from "../assets/skills/python-icon.png"
+import JavaScriptIcon from "../assets/skills/javascript-icon.webp"
+import nodeIcon from "../assets/skills/node-icon.png"
+import gitIcon from "../assets/skills/git-icon.png"
+import sqlIcon from "../assets/skills/sql-icon.webp"
+import reactIcon from "../assets/skills/react-icon.png"
+import tailwindIcon from "../assets/skills/tailwind-icon.png"
 import {
     Brain,
     Scale,
@@ -16,8 +16,11 @@ import {
     Users,
     MessageSquare,
 } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 function SkillsSection() {
+    const { t } = useTranslation()
+
     return (
         <section id="skills" className="py-32 px-6 relative z-10">
 
@@ -30,10 +33,11 @@ function SkillsSection() {
                 <div>
 
                     <h3 className="text-green-400 mb-4 text-3xl font-semibold">
-                        Habilidades Técnicas
+                        {t("skills.technicalSkillsTitle")}
                     </h3>
 
                     <div className="grid md:grid-cols-4 gap-8 py-8">
+
                         <SkillCard icon={javaIcon} name="Java" isImage={true} />
                         <SkillCard icon={springBootIcon} name="Spring Boot" isImage={true} />
                         <SkillCard icon={pythonIcon} name="Python" isImage={true} />
@@ -43,6 +47,7 @@ function SkillsSection() {
                         <SkillCard icon={sqlIcon} name="SQL" isImage={true} />
                         <SkillCard icon={reactIcon} name="React" isImage={true} />
                         <SkillCard icon={tailwindIcon} name="Tailwind" isImage={true} />
+                        
                     </div>
 
                 </div>
@@ -50,44 +55,45 @@ function SkillsSection() {
                 <div>
 
                     <h3 className="text-green-400 mb-4 text-3xl font-semibold">
-                        Habilidades Blandas
+                        {t("skills.softSkillsTitle")}
                     </h3>
 
                     <div className="grid md:grid-cols-3 gap-8 py-8">
                         <SkillCard
                             icon={<Brain size={64} className="text-red-400" />}
-                            name="Pensamiento Crítico"
+                            name={t("skills.softSkills.0")}
                         />
 
                         <SkillCard
                             icon={<Scale size={64} className="text-olive-500" />}
-                            name="Toma de Decisiones"
+                            name={t("skills.softSkills.1")}
                         />
 
                         <SkillCard
                             icon={<Lightbulb size={64} className="text-yellow-400" />}
-                            name="Resolución de Problemas"
+                            name={t("skills.softSkills.2")}
                         />
 
                         <SkillCard
                             icon={<RefreshCw size={64} className="text-purple-400" />}
-                            name="Adaptabilidad"
+                            name={t("skills.softSkills.3")}
                         />
 
                         <SkillCard
                             icon={<Users size={64} className="text-green-400" />}
-                            name="Trabajo en Equipo"
+                            name={t("skills.softSkills.4")}
                         />
 
                         <SkillCard
                             icon={<MessageSquare size={64} className="text-blue-400" />}
-                            name="Comunicación"
+                            name={t("skills.softSkills.5")}
                         />
                     </div>
 
                 </div>
 
             </div>
+            
         </section>
     )
 }
