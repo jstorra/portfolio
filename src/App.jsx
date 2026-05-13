@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import HeroSection from "./sections/HeroSection"
 import AboutSection from "./sections/AboutSection"
+import SkillsSection from "./sections/SkillsSection"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="relative z-10">
         <HeroSection />
         <AboutSection />
+        <SkillsSection />
       </main>
     </div>
   )
