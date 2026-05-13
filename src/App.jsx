@@ -8,7 +8,6 @@ function App() {
       
       {/* Glow background */}
       <div className="absolute top-[-200px] left-[-100px] w-[500px] h-[500px] bg-green-500/20 rounded-full blur-3xl"></div>
-
       <div className="absolute top-[200px] right-[-100px] w-[400px] h-[400px] bg-blue-500/20 rounded-full blur-3xl"></div>
 
       <Navbar />
