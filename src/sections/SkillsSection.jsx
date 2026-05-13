@@ -21,9 +21,14 @@ function SkillsSection() {
     return (
         <section id="skills" className="py-32 px-6 relative z-10">
 
+            {/* Glow background */}
+            <div className="absolute top-[600px] left-[-150px] w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-3xl"></div>
+            <div className="absolute top-[200px] right-[-200px] w-[400px] h-[400px] bg-green-500/20 rounded-full blur-3xl"></div>
+
             <div className="max-w-5xl mx-auto flex flex-col gap-16">
 
                 <div>
+
                     <h3 className="text-green-400 mb-4 text-3xl font-semibold">
                         Habilidades Técnicas
                     </h3>
@@ -39,9 +44,11 @@ function SkillsSection() {
                         <SkillCard icon={reactIcon} name="React" isImage={true} />
                         <SkillCard icon={tailwindIcon} name="Tailwind" isImage={true} />
                     </div>
+
                 </div>
 
                 <div>
+
                     <h3 className="text-green-400 mb-4 text-3xl font-semibold">
                         Habilidades Blandas
                     </h3>
@@ -77,6 +84,7 @@ function SkillsSection() {
                             name="Comunicación"
                         />
                     </div>
+
                 </div>
 
             </div>
