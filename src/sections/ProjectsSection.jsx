@@ -19,7 +19,7 @@ function ProjectsSection() {
                     {t("projects.sectionTitle")}
                 </h3>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-8 items-stretch">
 
                     {projects.map((project, index) => (
                         <ProjectCard
