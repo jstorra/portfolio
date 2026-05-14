@@ -20,16 +20,66 @@ function SkillsSection() {
                         {t("skills.technicalSkillsTitle")}
                     </h3>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 py-8">
+                    <div className="py-6">
 
-                        {technicalSkills.map((skill, index) => (
-                            <SkillCard
-                                key={index}
-                                icon={skill.icon}
-                                name={skill.name}
-                                isImage={skill.isImage}
-                            />
-                        ))}
+                        <h3 className="text-white mb-4 text-2xl font-semibold">
+                            Frontend
+                        </h3>
+
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                            {technicalSkills.frontend.map((skill, index) => (
+                                <SkillCard
+                                    key={index}
+                                    icon={skill.icon}
+                                    name={skill.name}
+                                    isImage={skill.isImage}
+                                />
+                            ))}
+
+                        </div>
+
+                    </div>
+
+                    <div className="py-6">
+
+                        <h3 className="text-white mb-4 text-2xl font-semibold">
+                            Backend
+                        </h3>
+
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                            {technicalSkills.backend.map((skill, index) => (
+                                <SkillCard
+                                    key={index}
+                                    icon={skill.icon}
+                                    name={skill.name}
+                                    isImage={skill.isImage}
+                                />
+                            ))}
+
+                        </div>
+
+                    </div>
+
+                    <div className="py-6">
+
+                        <h3 className="text-white mb-4 text-2xl font-semibold">
+                            Tools
+                        </h3>
+
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                            {technicalSkills.tools.map((skill, index) => (
+                                <SkillCard
+                                    key={index}
+                                    icon={skill.icon}
+                                    name={skill.name}
+                                    isImage={skill.isImage}
+                                />
+                            ))}
+
+                        </div>
 
                     </div>
 

@@ -17,61 +17,67 @@ import {
     MessageSquare,
 } from "lucide-react"
 
-export const technicalSkills = [
-    {
-        name: "Java",
-        icon: javaIcon,
-        isImage: true,
-    },
+export const technicalSkills = {
+    frontend: [
+        {
+            name: "React",
+            icon: reactIcon,
+            isImage: true,
+        },
 
-    {
-        name: "Spring Boot",
-        icon: springBootIcon,
-        isImage: true,
-    },
+        {
+            name: "Tailwind",
+            icon: tailwindIcon,
+            isImage: true,
+        },
 
-    {
-        name: "Python",
-        icon: pythonIcon,
-        isImage: true,
-    },
+        {
+            name: "JavaScript",
+            icon: javaScriptIcon,
+            isImage: true,
+        },
+    ],
 
-    {
-        name: "JavaScript",
-        icon: javaScriptIcon,
-        isImage: true,
-    },
+    backend: [
+        {
+            name: "Java",
+            icon: javaIcon,
+            isImage: true,
+        },
 
-    {
-        name: "Node.js",
-        icon: nodeIcon,
-        isImage: true,
-    },
+        {
+            name: "Spring Boot",
+            icon: springBootIcon,
+            isImage: true,
+        },
 
-    {
-        name: "Git",
-        icon: gitIcon,
-        isImage: true,
-    },
+        {
+            name: "Python",
+            icon: pythonIcon,
+            isImage: true,
+        },
 
-    {
-        name: "SQL",
-        icon: sqlIcon,
-        isImage: true,
-    },
+        {
+            name: "Node.js",
+            icon: nodeIcon,
+            isImage: true,
+        }
+    ],
 
-    {
-        name: "React",
-        icon: reactIcon,
-        isImage: true,
-    },
+    tools: [
+        {
+            name: "Git",
+            icon: gitIcon,
+            isImage: true,
+        },
 
-    {
-        name: "Tailwind",
-        icon: tailwindIcon,
-        isImage: true,
-    },
-]
+        {
+            name: "SQL",
+            icon: sqlIcon,
+            isImage: true,
+        }
+    ]
+}
 
 export const softSkills = [
     {
