@@ -34,5 +34,29 @@
       "Teamwork",
       "Communication"
     ]
+  },
+
+  "projects": {
+    "sectionTitle": "Projects",
+    "project1": {
+      "title": "Financial Tracker",
+      "description": "Web application developed to manage personal income and expenses, allowing users to calculate financial balances and clearly visualize their financial status in an organized way."
+    },
+    "project2": {
+      "title": "Portfolio Generator",
+      "description": "Web application that allows users to create dynamic portfolios and resumes by registering personal information, skills, and experience, with CRUD functionalities and real-time preview."
+    },
+    "project3": {
+      "title": "Library System",
+      "description": "Library management system designed to manage books, categories, publishers, users, and loans, optimizing the control and organization of resources."
+    },
+    "project4": {
+      "title": "PokeAPI Website",
+      "description": "Interactive web application that consumes the PokeAPI API to display Pokémon, filter by types, and view detailed information about each character through a modern and responsive interface."
+    },
+    "project5": {
+      "title": "Ready Player One Website",
+      "description": "Informative website inspired by the movie Ready Player One, focused on presenting content related to the cast, synopsis, and curiosities through an attractive visual design."
+    }
   }
 }

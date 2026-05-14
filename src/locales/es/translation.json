@@ -34,5 +34,29 @@
       "Trabajo en equipo",
       "Comunicación"
     ]
+  },
+
+  "projects": {
+    "sectionTitle": "Proyectos",
+    "project1": {
+      "title": "Trazador Financiero",
+      "description": "Aplicación web desarrollada para gestionar ingresos y egresos personales, permitiendo calcular balances financieros y visualizar el estado económico de forma clara y organizada."
+    },
+    "project2": {
+      "title": "Generador de Portfolios",
+      "description": "Aplicación web que permite crear portfolios y hojas de vida dinámicas mediante el registro de información personal, habilidades y experiencia, con funcionalidades CRUD y visualización en tiempo real."
+    },
+    "project3": {
+      "title": "Sistema de Biblioteca",
+      "description": "Sistema de gestión bibliotecaria diseñado para administrar libros, categorías, editoriales, usuarios y préstamos, optimizando el control y organización de los recursos."
+    },
+    "project4": {
+      "title": "Sitio Web PokeApi",
+      "description": "Aplicación web interactiva que consume la API de PokeAPI para visualizar Pokémon, filtrar por tipos y consultar información detallada de cada personaje mediante una interfaz moderna y responsive."
+    },
+    "project5": {
+      "title": "Sitio Web Ready Player One",
+      "description": "Sitio web informativo inspirado en la película Ready Player One, enfocado en presentar contenido relacionado con el casting, sinopsis y curiosidades mediante un diseño visual atractivo."
+    }
   }
 }
