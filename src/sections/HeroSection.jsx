@@ -5,7 +5,7 @@ function HeroSection() {
     const { t } = useTranslation()
 
     return (
-        <section id="home" className="min-h-screen flex items-center px-6">
+        <section id="home" className="min-h-screen flex items-center px-6 py-32">
 
             <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-16 items-center">
 
