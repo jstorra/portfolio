@@ -24,7 +24,7 @@ export const contactInfo = [
     },
 
     {
-        title: "Descargar CV",
+        title: "contact.downloadCV",
         url: "/CV.pdf",
         icon: <FileDown className="text-green-400" size={28} />
     },
