@@ -1,9 +1,10 @@
-function ContactCard({ icon, title, url }) {
+function ContactCard({ icon, title, url, download }) {
     return (
         <a
             href={url}
-            target="_blank"
-            rel="noopener noreferrer"
+            target={!download ? "_blank" : undefined}
+            rel={!download ? "noopener noreferrer" : undefined}
+            download={download}
             className="flex items-center justify-between bg-gradient-to-br from-gray-900/40 to-gray-800/50 border border-white/10 rounded-2xl p-5 hover:border-green-500/30 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(34,197,94,0.15)] transition-all duration-300"
         >
             <div className="flex items-center gap-4">

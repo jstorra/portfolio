@@ -22,6 +22,7 @@ function ContactSection() {
                             icon={info.icon}
                             title={t(info.title)}
                             url={info.url}
+                            download={info.download}
                         />
                     ))}
 

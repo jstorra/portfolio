@@ -26,6 +26,7 @@ export const contactInfo = [
     {
         title: "contact.downloadCV",
         url: `${import.meta.env.BASE_URL}CV.pdf`,
-        icon: <FileDown className="text-green-400" size={28} />
+        icon: <FileDown className="text-green-400" size={28} />,
+        download: true
     },
 ]
