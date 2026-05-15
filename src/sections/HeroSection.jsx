@@ -24,9 +24,9 @@ function HeroSection() {
                         {t("hero.subtitle")}
                     </p>
 
-                    <button className="bg-green-500 hover:bg-green-400 transition-colors px-8 py-4 rounded-xl text-black font-semibold cursor-pointer">
+                    <a href="#projects" className="inline-block bg-green-500 hover:bg-green-400 transition-colors px-8 py-4 rounded-xl text-black font-semibold cursor-pointer">
                         {t("hero.viewProjects")}
-                    </button>
+                    </a>
                 
                 </div>
 
