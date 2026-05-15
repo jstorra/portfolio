@@ -1,6 +1,6 @@
 function SkillCard({ icon, name, isImage = false }) {
     return (
-        <div className="bg-gradient-to-br from-gray-900/40 to-gray-800/50 p-6 rounded-xl border border-white/10 flex flex-col items-center justify-center gap-4 hover:border-white/20 hover:-translate-y-1 transition-all duration-300">
+        <div className="bg-gradient-to-br from-gray-900/40 to-gray-800/50 p-6 rounded-xl border border-white/10 flex flex-col items-center justify-center gap-4 hover:border-white/20 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,255,0.15)] transition-all duration-300">
 
             {isImage ? (
                 <img

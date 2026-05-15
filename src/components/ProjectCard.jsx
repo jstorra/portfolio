@@ -5,7 +5,7 @@ function ProjectCard({ image, title, description, github }) {
             target="_blank"
             rel="noopener noreferrer"
         >
-            <div className="h-full bg-gradient-to-br from-gray-900/40 to-gray-800/50 rounded-xl border border-white/10 hover:border-white/20 hover:-translate-y-2 transition-all duration-300">
+            <div className="h-full bg-gradient-to-br from-gray-900/40 to-gray-800/50 rounded-xl border border-white/10 hover:border-white/20 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,255,0.15)] transition-all duration-300">
 
                 <img src={image} alt={title} className="w-full h-48 object-cover rounded-lg" />
 

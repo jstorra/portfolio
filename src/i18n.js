@@ -5,23 +5,23 @@ import en from "./locales/en/translation.json"
 import es from "./locales/es/translation.json"
 
 i18n
-  .use(initReactI18next)
-  .init({
-    resources: {
-      en: {
-        translation: en,
-      },
-      es: {
-        translation: es,
-      },
-    },
+    .use(initReactI18next)
+    .init({
+        resources: {
+            en: {
+                translation: en,
+            },
+            es: {
+                translation: es,
+            },
+        },
 
-    lng: "es",
-    fallbackLng: "en",
+        lng: "es",
+        fallbackLng: "en",
 
-    interpolation: {
-      escapeValue: false,
-    },
-  })
+        interpolation: {
+            escapeValue: false,
+        },
+    })
 
 export default i18n

@@ -58,5 +58,10 @@
       "title": "Sitio Web Ready Player One",
       "description": "Sitio web informativo inspirado en la película Ready Player One, enfocado en presentar contenido relacionado con el casting, sinopsis y curiosidades mediante un diseño visual atractivo."
     }
+  },
+
+  "contact": {
+    "sectionTitle": "Trabajemos juntos",
+    "dowloadCV": "Descargar CV"
   }
 }

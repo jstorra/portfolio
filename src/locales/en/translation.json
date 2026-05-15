@@ -5,7 +5,7 @@
     "projects": "Projects",
     "contact": "Contact"
   },
-
+  
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Juan Sebastian Torra Garcia",
@@ -58,5 +58,10 @@
       "title": "Ready Player One Website",
       "description": "Informative website inspired by the movie Ready Player One, focused on presenting content related to the cast, synopsis, and curiosities through an attractive visual design."
     }
+  },
+
+  "contact": {
+    "sectionTitle": "Let's Work Together",
+    "dowloadCV": "Download CV"
   }
 }
