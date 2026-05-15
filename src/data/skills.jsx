@@ -7,6 +7,7 @@ import gitIcon from "../assets/skills/git-icon.png"
 import sqlIcon from "../assets/skills/sql-icon.webp"
 import reactIcon from "../assets/skills/react-icon.png"
 import tailwindIcon from "../assets/skills/tailwind-icon.png"
+import vscodeIcon from "../assets/skills/vscode-icon.png"
 
 import {
     Brain,
@@ -61,6 +62,11 @@ export const technicalSkills = {
             name: "Node.js",
             icon: nodeIcon,
             isImage: true,
+        },
+        {
+            name: "SQL",
+            icon: sqlIcon,
+            isImage: true,
         }
     ],
 
@@ -70,10 +76,9 @@ export const technicalSkills = {
             icon: gitIcon,
             isImage: true,
         },
-
         {
-            name: "SQL",
-            icon: sqlIcon,
+            name: "VS Code",
+            icon: vscodeIcon,
             isImage: true,
         }
     ]
